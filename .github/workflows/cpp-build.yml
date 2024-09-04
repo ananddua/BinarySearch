@@ -20,7 +20,7 @@ jobs:
 
     - name: Build
       run: |
-        g++ -o output your_code.cpp
+        g++ -o output binary_search1.cpp
         ./output
 
     - name: Run tests

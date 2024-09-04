@@ -70,6 +70,7 @@ int main(void){
     // cout << arr[n-1];
     int value = 6;
     int result = binarySearch(left, right, value, arr);
+    cout<<"Testing";
     cout<< result;
 
     // system("pause");
